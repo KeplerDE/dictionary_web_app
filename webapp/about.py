@@ -23,5 +23,5 @@ class About:
         return wp
 
 
-jp.Route(About.path, About.serve)  # to refer we can access class
-jp.justpy(port=8001)
+# jp.Route(About.path, About.serve)
+# jp.justpy(port=8001)
