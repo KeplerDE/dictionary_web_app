@@ -1,7 +1,7 @@
 import justpy as jp
 import layout
-
-class Home:
+import page
+class Home(page.Page):
     path = "/"
 
     @classmethod
